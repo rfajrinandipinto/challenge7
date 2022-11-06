@@ -1,0 +1,69 @@
+.car-card {
+    margin-bottom: 32px;
+}
+
+.car-card .card {
+    min-height: 586px;
+}
+
+.car-card .card .card-body {
+    padding-block:24px ;
+    flex-direction: column;
+}
+
+.car-image-container {
+    position:relative;
+    height: 222px;
+    padding: 31px 17px;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+.car-img {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.card-title {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.car-rent {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.card-text {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+.car-capacity ,
+.car-transmision,
+.car-year {
+    display: flex;
+    gap: 9px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+.button-car {
+    margin-top: auto;
+    display: block;
+    border: none;
+    border-radius: 2px;
+    background-color: #5cb85f;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+}
